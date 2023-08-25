@@ -1,4 +1,4 @@
-name: pysnowpark
+name: py_snowpark_llm
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
   - nodefaults
@@ -12,7 +12,7 @@ dependencies:
     # Basics
     - pandas==1.5.3
     - numpy==1.23.5
-    # ML
+    # LLM/ML
     - openai
     - scikit-llm==0.3.4
     - scikit-learn==1.2.2
